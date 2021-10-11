@@ -114,7 +114,7 @@ if (isset($_GET['Function']))
             if (liff.isLoggedIn()) {
 
                 var sFunction = document.getElementById('txtFunction').value;
-alert(sFunction);
+                alert(sFunction);
                 if (sFunction != '') {
 
                     liff.getProfile().then(profile => {
@@ -156,12 +156,23 @@ alert(sFunction);
 
 
 
+
+
                         })
                         .catch((err) => {
                             alert(err);
                             console.log('error', err);
                         });
 
+                }
+
+                if (!liff.isLoggedIn()) {
+                    alert('ReRe');
+                    liff.login({
+                        redirectUri: "https://www.google.com"
+                    });
+                }else{
+                    alert('Hi');
                 }
             }
             //liff.getProfile().userId;
