@@ -69,6 +69,7 @@ window.onload = function() {
                 initializeLiffOrDie(myLiffId);
             })
             .catch(function(error) {
+                console.log(error);
                 //document.getElementById("liffAppContent").classList.add('hidden');
                // document.getElementById("nodeLiffIdErrorMessage").classList.remove('hidden');
             });
