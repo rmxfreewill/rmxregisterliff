@@ -6,7 +6,7 @@
 	//define("COMPANY_URL", "http://rmxcell.pe.hu/rmxLine2.php");
 	define("COMPANY_CODE", "00001");
 
-	define("LIFF_ID","1656445468-pPVkELw7"); 
+	define("LIFF_ID","1656503744-kojgw9pb"); 
 
 
 ?>
