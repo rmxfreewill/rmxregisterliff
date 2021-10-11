@@ -325,7 +325,8 @@
 
 
 
-        liff.login({ redirectUri: url });
+
+        liff.login({ redirectUri: "https://rmxliff.ddns.net/frmRegister.php" });
 
         //alert(url);
     }

@@ -147,6 +147,8 @@ if (isset($_GET['Function']))
                                     //code to be executed if n is different from all labels;
                             }
                             alert('index redirectUri ' +url);
+
+                            
                             liff.login({
                                 redirectUri: url
                             });
