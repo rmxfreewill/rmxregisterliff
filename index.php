@@ -97,6 +97,7 @@ if (isset($_GET['Function']))
                     initializeApp();
                 })
                 .catch((err) => {
+                    console.log('initializeLiff');
                     // document.getElementById('lblUserId').textContent = err.error;
                     //document.getElementById("liffAppContent").classList.add('hidden');
                     //document.getElementById("liffInitErrorMessage").classList.remove('hidden');
@@ -145,7 +146,7 @@ if (isset($_GET['Function']))
                                     break;
                                     //code to be executed if n is different from all labels;
                             }
-                            //alert(sFunction);
+                            alert('index redirectUri ' +url);
                             liff.login({
                                 redirectUri: url
                             });
