@@ -73,6 +73,7 @@ window.onload = function() {
                // document.getElementById("nodeLiffIdErrorMessage").classList.remove('hidden');
             });
     } else {
+        alert('index '+defaultLiffId);
         myLiffId = defaultLiffId;
         initializeLiffOrDie(myLiffId);
 
