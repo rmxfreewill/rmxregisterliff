@@ -146,9 +146,10 @@ if (isset($_GET['Function']))
                                     break;
                                     //code to be executed if n is different from all labels;
                             }
-                            alert('index redirectUri ' +url);
+                            url = "https://rmxliff.ddns.net/frmRegister.php" + para;
+                            alert('index redirectUri ' + url);
 
-                            
+
                             liff.login({
                                 redirectUri: url
                             });
