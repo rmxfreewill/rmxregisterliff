@@ -133,13 +133,13 @@ if (isset($_GET['Function']))
                                     url = url + "frmRegister.php" + para;
                                     break;
                                 case "QUERY":
-                                    url = "https://rmxregister.herokuapp.com/frmQuery.php" + para;
+                                    // url = "https://rmxregister.herokuapp.com/frmQuery.php" + para;
                                     break;
                                 case "VIEW":
-                                    url = "https://rmxregister.herokuapp.com/frmView.php" + para;
+                                    // url = "https://rmxregister.herokuapp.com/frmView.php" + para;
                                     break;
                                 case "TICKET":
-                                    url = "https://rmxregister.herokuapp.com/frmTicket.php" + para;
+                                    // url = "https://rmxregister.herokuapp.com/frmTicket.php" + para;
                                     break;
 
                                 default:
@@ -171,7 +171,7 @@ if (isset($_GET['Function']))
                     liff.login({
                         redirectUri: "https://www.google.com"
                     });
-                }else{
+                } else {
                     alert('Hi');
                 }
             }
