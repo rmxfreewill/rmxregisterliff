@@ -320,7 +320,7 @@
         var sCmd = sLineDisplay+"^c"+sUserName+"^c"+sTel+"^c"+sEMail;
 
         var para = "?LinkCode=REGISTER&LineId="+sLineId+"&CmdCommand="+sCmd;
-        var url = "https://rmxregister.herokuapp.com/frmRegister.php" + para;
+        var url = "https://rmxofficialregister.herokuapp.com/frmRegister.php" + para;
 
 
 
